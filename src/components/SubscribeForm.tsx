@@ -72,7 +72,7 @@ export default function SubscribeForm({ id }: SubscribeFormProps) {
         </button>
       </form>
       <p className="text-[.77rem] text-[var(--muted)] mt-3 text-center">
-        Gratis. Un'email a settimana. Zero spam. Lo promettiamo a noi stessi.
+        Gratis. Un&apos;email a settimana. Zero spam. Lo promettiamo a noi stessi.
       </p>
     </div>
   )

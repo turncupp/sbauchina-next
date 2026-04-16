@@ -37,6 +37,17 @@ interface LinkItem {
   immagine: string | null
 }
 
+// Union of all item shapes — the optional fields cover each variant
+type ConsiglioItem = Libro | Serie | Musica | LinkItem
+
+// Helper to extract the subtitle from any item variant
+function getSottotitolo(item: ConsiglioItem): string {
+  if ('autore' in item) return item.autore
+  if ('piattaforma' in item) return item.piattaforma
+  if ('artista' in item) return item.artista
+  return item.link
+}
+
 interface ConsiglioData {
   libri: Libro[]
   serie: Serie[]
@@ -133,7 +144,7 @@ export default async function ConsigliPage() {
 
         {/* Sections */}
         {(Object.entries(sectionMeta) as [keyof typeof sectionMeta, typeof sectionMeta['libri']][]).map(([key, meta]) => {
-          const items = data[key] as (Libro | Serie | Musica | LinkItem)[]
+          const items = data[key] as ConsiglioItem[]
           if (!items?.length) return null
           return (
             <section key={key} className="mb-16" aria-labelledby={`section-${key}`}>
@@ -159,11 +170,11 @@ export default async function ConsigliPage() {
               </ScrollReveal>
 
               <div className="flex flex-col gap-4">
-                {items.map((item: any, i: number) => (
+                {items.map((item: ConsiglioItem, i: number) => (
                   <ScrollReveal key={item.titolo} delay={i * 0.08}>
                     <Card
                       titolo={item.titolo}
-                      sottotitolo={item.autore ?? item.piattaforma ?? item.artista ?? item.link}
+                      sottotitolo={getSottotitolo(item)}
                       descrizione={item.descrizione}
                       href={item.link}
                       color={meta.color}

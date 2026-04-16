@@ -60,7 +60,7 @@ export default async function GlossarioPage() {
 
         {/* Categories */}
         <div className="flex flex-col gap-16">
-          {categorie.map((cat, ci) => (
+          {categorie.map((cat) => (
             <section key={cat.categoria} aria-labelledby={`cat-${cat.categoria}`}>
               <ScrollReveal>
                 <div className="flex items-center gap-4 mb-8">
