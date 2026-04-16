@@ -1,0 +1,86 @@
+[
+  {
+    "categoria": "Geopolitica",
+    "termini": [
+      {
+        "nome": "Dazio",
+        "definizione": "Una tassa che un Paese mette sulle importazioni straniere. Funziona così: l'America decide che vuole proteggere il suo acciaio, allora mette un 25% di dazio sull'acciaio cinese. Il risultato? L'acciaio cinese diventa più caro, quello americano sembra più competitivo — e tu paghi di più le lattine di birra."
+      },
+      {
+        "nome": "NATO",
+        "definizione": "North Atlantic Treaty Organization. L'alleanza militare nata nel 1949 per dire 'se attacchi uno di noi, attacchi tutti'. In pratica è il motivo per cui l'Europa non ha un esercito comune e si affida ancora in larga parte agli USA. Ultimamente se ne discute parecchio, perché Trump vuole che tutti paghino di più per la difesa."
+      },
+      {
+        "nome": "Supply Chain",
+        "definizione": "La catena di produzione che porta un prodotto dalle materie prime a casa tua. Sembra un concetto aziendale noioso, ma quando si rompe (vedi: pandemia, guerra in Ucraina, Canale di Suez bloccato da una nave), ti ritrovi senza chip nei computer e senza patatine al supermercato."
+      },
+      {
+        "nome": "Proxy War",
+        "definizione": "Una guerra combattuta da terzi per conto delle grandi potenze. Gli USA e la Russia non si dichiarano guerra direttamente — troppo rischioso, hanno le atomiche. Quindi si supportano le fazioni opposte in paesi come Ucraina, Siria, Yemen. Classico del dopoguerra, ma in aggiornamento continuo."
+      }
+    ]
+  },
+  {
+    "categoria": "Economia",
+    "termini": [
+      {
+        "nome": "Inflazione",
+        "definizione": "Quando i prezzi salgono e il tuo euro compra meno di prima. Non è sempre un disastro — un po' di inflazione è fisiologica, le banche centrali la vogliono intorno al 2%. Il problema è quando va fuori controllo: tipo il 2022, quando l'energia e il cibo sono esplosi e i tuoi genitori hanno ricominciato a parlare di 'risparmiare'."
+      },
+      {
+        "nome": "PIL",
+        "definizione": "Prodotto Interno Lordo. Misura il valore totale di tutto quello che un Paese produce in un anno. Sale il PIL? L'economia cresce. Scende due trimestri di fila? Recessione tecnica, lo dicono tutti i TG e nessuno spiega cosa significa nella vita reale (spoiler: meno lavoro, meno investimenti)."
+      },
+      {
+        "nome": "Hedge Fund",
+        "definizione": "Fondi di investimento riservati ai super-ricchi che usano strategie elaborate per guadagnare anche quando i mercati scendono. Vendono allo scoperto, usano leva finanziaria, fanno cose che neanche gli esperti capiscono sempre. Quando ci azzeccano, guadagnano tantissimo. Quando sbagliano, a volte portano giù mezzo sistema finanziario."
+      },
+      {
+        "nome": "Quantitative Easing",
+        "definizione": "Quando una banca centrale stampa moneta per comprare titoli di Stato e immettere liquidità nell'economia. La BCE l'ha fatto a valanga dopo il 2008 e durante il Covid. Risultato: soldi a buon mercato, mercati finanziari alle stelle, case inaccessibili per chi non le aveva già. Ora sta finendo — e stiamo scoprendo che disabituarsi fa male."
+      }
+    ]
+  },
+  {
+    "categoria": "AI",
+    "termini": [
+      {
+        "nome": "Large Language Model",
+        "definizione": "Il tipo di AI dietro ChatGPT, Claude, Gemini. Sono modelli addestrati su quantità assurde di testo che imparano a predire la parola successiva in una frase. Non 'capiscono' nel senso umano — ma sono così bravi a prevedere che spesso producono output indistinguibili da quelli umani. Il che solleva domande interessanti su cosa significhi capire."
+      },
+      {
+        "nome": "Allineamento AI",
+        "definizione": "Il problema di fare in modo che un'AI faccia quello che vogliamo davvero, non quello che gli abbiamo detto letteralmente. È la differenza tra 'fai felice l'utente' (e l'AI decide di manipolarlo psicologicamente) e 'fai felice l'utente in modo onesto e rispettoso'. Uno dei problemi più seri, e più difficili, del campo."
+      },
+      {
+        "nome": "Token",
+        "definizione": "L'unità base con cui i modelli linguistici processano il testo. Non sono esattamente parole: 'ChatGPT' è un token, 'inaspettatamente' potrebbe essere tre. I modelli hanno un limite di token che possono gestire in una volta (context window). È per questo che a volte 'dimenticano' quello che hai detto all'inizio di una conversazione lunga."
+      },
+      {
+        "nome": "Hallucination",
+        "definizione": "Quando un'AI inventa cose con totale sicurezza. Le cita fonti che non esistono, inventano fatti, descrivono eventi che non sono mai accaduti — il tutto con lo stesso tono sicuro con cui ti direbbe che Parigi è la capitale della Francia. Non è un bug margginale: è una caratteristica strutturale dei LLM, che generano il testo 'plausibile', non necessariamente quello vero."
+      }
+    ]
+  },
+  {
+    "categoria": "Sport",
+    "termini": [
+      {
+        "nome": "Fair Play Finanziario",
+        "definizione": "Le regole UEFA che obbligano i club a non spendere più di quello che guadagnano. In teoria evita che i miliardari comprino lo scudetto buttando soldi dalla finestra. In pratica, i club più ricchi trovano sempre modi creativi per aggirarlo — e le sanzioni arrivano anni dopo, quando il danno è fatto."
+      },
+      {
+        "nome": "Salary Cap",
+        "definizione": "Un tetto salariale: la cifra massima che una squadra può spendere in stipendi. Usato in NBA, NFL, sport americani in generale. Lo scopo è impedire che i team più ricchi comprino tutti i migliori giocatori e rendano la competizione una farsa. Il problema è che funziona solo se le regole vengono rispettate — e in Europa nessuno vuole nemmeno sentirne parlare."
+      },
+      {
+        "nome": "Multi-club Ownership",
+        "definizione": "Quando uno stesso proprietario controlla più club di calcio. Il City Football Group possiede il Manchester City, il Girona, l'Auckland City e altri 8 club. Ti permette di raggiungere talenti ovunque, ottimizzare i prestiti, fare formazione. Ti permette anche di creare circuiti di trasferimento opachi che i regolatori faticano a controllare."
+      },
+      {
+        "nome": "PIF",
+        "definizione": "Public Investment Fund. Il fondo sovrano dell'Arabia Saudita che ha comprato il Newcastle, finanzia il LIV Golf, porta Ronaldo e Benzema in Saudi Pro League. Non è sport puro: è sportswashing, ovvero usare lo sport per migliorare l'immagine internazionale di un Paese con un curriculum sui diritti umani quantomeno discutibile."
+      }
+    ]
+  }
+]

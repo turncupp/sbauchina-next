@@ -1,0 +1,91 @@
+{
+  "libri": [
+    {
+      "titolo": "Pensieri lenti e veloci",
+      "autore": "Daniel Kahneman",
+      "descrizione": "Il libro che ti spiega perché prendi decisioni stupide pensando di essere razionale. Spoiler: il tuo cervello mente costantemente e tu ci credi sempre. Fondamentale per capire perché i mercati crollano, perché voti certi politici e perché scegli male al supermercato.",
+      "link": "https://www.amazon.it/Pensieri-lenti-veloci-Daniel-Kahneman/dp/8804624906",
+      "immagine": null
+    },
+    {
+      "titolo": "Il mondo prima di noi",
+      "autore": "Nathaniel Rich",
+      "descrizione": "Un romanzo che sembra fantascienza ma parla di crisi climatica, di cosa significa lasciare qualcosa di significativo alle generazioni future e di quanto siamo bravi a ignorare quello che non vogliamo vedere. Scritto benissimo, fa paura nel modo giusto.",
+      "link": "https://www.amazon.it",
+      "immagine": null
+    },
+    {
+      "titolo": "Factfulness",
+      "autore": "Hans Rosling",
+      "descrizione": "Il libro anti-doom per eccellenza. Rosling, medico svedese morto nel 2017, dimostra dati alla mano che il mondo sta migliorando su quasi tutto — e che la nostra percezione è sistematicamente distorta verso il peggio. Non ti rende ingenui: ti rende più precisi.",
+      "link": "https://www.amazon.it/Factfulness-ragioni-cui-capiamo-mondo/dp/8817099988",
+      "immagine": null
+    }
+  ],
+  "serie": [
+    {
+      "titolo": "Succession",
+      "piattaforma": "HBO/Sky",
+      "descrizione": "Una famiglia di miliardari si distrugge per il controllo di un impero mediatico. Sembra una soap opera dei ricchi — in realtà è la critica più acuta al capitalismo americano degli ultimi 10 anni. Ogni personaggio è odioso e umano allo stesso tempo. Il finale è perfetto.",
+      "link": "https://www.sky.it/serie-tv/succession",
+      "immagine": null
+    },
+    {
+      "titolo": "The Bear",
+      "piattaforma": "Disney+",
+      "descrizione": "Un ex chef stellato torna a Chicago per gestire il ristorante di famiglia dopo un lutto. Quello che sembra una serie sul cibo è in realtà la migliore rappresentazione dell'ansia da performance, del trauma, e della pressione lavorativa che esiste in TV. L'episodio 'Review' è televisione pura.",
+      "link": "https://www.disneyplus.com",
+      "immagine": null
+    },
+    {
+      "titolo": "Severance",
+      "piattaforma": "Apple TV+",
+      "descrizione": "I dipendenti di una misteriosa azienda accettano di separare chirurgicamente i ricordi del lavoro da quelli personali. Una delle migliori metafore del capitalismo contemporaneo mai realizzate. Visivamente straordinaria, psicologicamente disturbante nel modo corretto.",
+      "link": "https://tv.apple.com",
+      "immagine": null
+    }
+  ],
+  "musica": [
+    {
+      "titolo": "Short n' Sweet",
+      "artista": "Sabrina Carpenter",
+      "descrizione": "L'album che ha fatto esplodere Sabrina Carpenter nel 2024. Pop sofisticato, production impeccabile, liriche che sembrano semplici ma non lo sono. Se ancora pensi che il pop commerciale non possa essere art direction seria, ascolta 'Espresso' e ricredi.",
+      "link": "https://open.spotify.com",
+      "immagine": null
+    },
+    {
+      "titolo": "GNX",
+      "artista": "Kendrick Lamar",
+      "descrizione": "L'album a sorpresa di Kendrick del novembre 2024. West Coast, old school — ma con una consapevolezza del momento culturale che pochi artisti riescono a catturare. Arrivato dopo aver distrutto Drake nel beef dell'anno, è quasi un trattato sul cosa significa vincere.",
+      "link": "https://open.spotify.com",
+      "immagine": null
+    },
+    {
+      "titolo": "Manning Fireworks",
+      "artista": "MJ Lenderman",
+      "descrizione": "Alternative rock americano nel 2024 che suona come se i migliori anni '90 non fossero mai finiti. Lenderman scrive canzoni su cose banali — un ex, una macchina, una partita di calcio — e le trasforma in qualcosa di universale. Uno dei dischi più piacevoli dell'anno.",
+      "link": "https://open.spotify.com",
+      "immagine": null
+    }
+  ],
+  "link": [
+    {
+      "titolo": "Our World in Data",
+      "descrizione": "Il sito che dimostra come il mondo stia andando — con i dati. Se vuoi smettere di basare le tue opinioni sulle impressioni e iniziare a basarle sui numeri, questo è il posto. Ogni grafico è scaricabile e citabile. Fondato da Max Roser, Oxford.",
+      "link": "https://ourworldindata.org",
+      "immagine": null
+    },
+    {
+      "titolo": "Stratechery",
+      "descrizione": "La newsletter di Ben Thompson sulla strategia delle aziende tech. Costosa, ma ogni pezzo vale il prezzo. Analizza Apple, Google, Meta con una profondità che non trovi nei giornali generalisti. Se ti interessa capire come funziona davvero l'economia digitale, inizia da qui.",
+      "link": "https://stratechery.com",
+      "immagine": null
+    },
+    {
+      "titolo": "The Browser",
+      "descrizione": "Cinque articoli al giorno selezionati da tutto il web — longreads, saggi, reportage. Non sono news: sono pezzi che vale la pena leggere tra cinque anni. Un curatore umano, niente algoritmi. Il modo più efficiente che conosco per trovare cose da leggere veramente interessanti.",
+      "link": "https://thebrowser.com",
+      "immagine": null
+    }
+  ]
+}
