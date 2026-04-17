@@ -3,6 +3,7 @@ import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import ScrollProgress from '@/components/ScrollProgress'
+import CustomCursor from '@/components/CustomCursor'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://sbauchina.it'),
@@ -64,6 +65,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
+        <CustomCursor />
         <ScrollProgress />
         <Navbar />
         {children}

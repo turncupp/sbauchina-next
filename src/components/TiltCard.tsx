@@ -1,5 +1,5 @@
 'use client'
-import { useRef } from 'react'
+import { useEffect, useRef } from 'react'
 
 interface TiltCardProps {
   children: React.ReactNode
@@ -9,24 +9,40 @@ interface TiltCardProps {
 export default function TiltCard({ children, className = '' }: TiltCardProps) {
   const ref = useRef<HTMLDivElement>(null)
 
-  const onMouseMove = (e: React.MouseEvent) => {
-    const card = ref.current
-    if (!card) return
-    const r = card.getBoundingClientRect()
-    const dx = (e.clientX - r.left - r.width / 2) / (r.width / 2)
-    const dy = (e.clientY - r.top - r.height / 2) / (r.height / 2)
-    card.style.transform = `perspective(900px) rotateY(${dx * 7}deg) rotateX(${-dy * 7}deg) translateZ(8px)`
-    card.style.setProperty('--mx', ((e.clientX - r.left) / r.width * 100) + '%')
-    card.style.setProperty('--my', ((e.clientY - r.top) / r.height * 100) + '%')
-  }
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
 
-  const onMouseLeave = () => {
-    if (!ref.current) return
-    ref.current.style.transform = 'perspective(900px) rotateY(0) rotateX(0) translateZ(0)'
-  }
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    const touch   = window.matchMedia('(hover: none)').matches
+    if (reduced || touch) return
+
+    let VanillaTilt: typeof import('vanilla-tilt').default | null = null
+
+    import('vanilla-tilt').then((mod) => {
+      VanillaTilt = mod.default
+      VanillaTilt.init(el, {
+        max: 10,
+        speed: 400,
+        glare: true,
+        'max-glare': 0.12,
+        perspective: 900,
+        scale: 1.02,
+        gyroscope: false,
+      })
+    })
+
+    return () => {
+      /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+      const tiltEl = el as any
+      if (tiltEl.vanillaTilt) {
+        tiltEl.vanillaTilt.destroy()
+      }
+    }
+  }, [])
 
   return (
-    <div ref={ref} className={className} onMouseMove={onMouseMove} onMouseLeave={onMouseLeave}>
+    <div ref={ref} className={className}>
       {children}
     </div>
   )

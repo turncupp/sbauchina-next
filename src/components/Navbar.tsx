@@ -15,26 +15,24 @@ export default function Navbar() {
       id="navbar"
       aria-label="Navigazione principale"
       className="fixed top-0 left-0 right-0 z-[100] flex items-center justify-between px-10 py-[18px] border-b border-white/[0.07] backdrop-blur-[20px]"
-      style={{ background: 'rgba(10,10,11,.8)' }}
+      style={{ background: 'rgba(8,8,9,.85)' }}
     >
       <Link
         href="/"
-        className="nav-logo relative text-[1.15rem] font-black tracking-[-0.5px] text-[var(--text)] no-underline"
-        data-text="Sbauchina"
+        className="relative text-[1.2rem] font-[800] tracking-[-0.5px] text-[var(--text)] no-underline leading-none"
         aria-label="Sbauchina — torna in cima"
-        style={{ position: 'relative' }}
       >
-        Sbau<span className="text-[var(--accent)]">china</span>
-        <span aria-hidden className="absolute inset-0 opacity-0" style={{ animation: 'gl1 9s infinite', color: '#e8396e' }}>Sbauchina</span>
-        <span aria-hidden className="absolute inset-0 opacity-0" style={{ animation: 'gl2 9s infinite', color: '#4f8ef7' }}>Sbauchina</span>
+        Sbau<span style={{ color: 'var(--accent)' }}>china</span>
+        <span aria-hidden className="nav-logo-ghost  absolute inset-0 opacity-0" style={{ color: '#e8396e' }}>Sbauchina</span>
+        <span aria-hidden className="nav-logo-ghost2 absolute inset-0 opacity-0" style={{ color: '#4f8ef7' }}>Sbauchina</span>
       </Link>
 
-      <div className="hidden md:flex items-center gap-6">
+      <div className="hidden md:flex items-center gap-7">
         {links.map((l) => (
           <Link
             key={l.href}
             href={l.href}
-            className={`text-sm font-medium transition-colors duration-200 ${
+            className={`text-[.82rem] font-[600] tracking-[.04em] transition-colors duration-200 ${
               pathname === l.href ? 'text-[var(--accent)]' : 'text-[var(--muted)] hover:text-[var(--text)]'
             }`}
           >
@@ -45,7 +43,7 @@ export default function Navbar() {
 
       <Link
         href="/#iscriviti"
-        className="bg-[var(--accent)] text-[#0a0a0b] font-bold text-[.85rem] px-5 py-[9px] rounded-full no-underline tracking-[.02em] transition-all duration-200 hover:shadow-[0_6px_24px_rgba(240,224,64,.3)]"
+        className="bg-[var(--accent)] text-[#080809] font-[700] text-[.82rem] px-5 py-[9px] rounded-full no-underline tracking-[.04em] transition-all duration-200 hover:shadow-[0_6px_24px_rgba(240,224,64,.35)] hover:brightness-105 active:scale-[.97]"
       >
         Iscriviti
       </Link>
